@@ -25,8 +25,8 @@ const Footer = () => {
     { name: 'Privacy Policy', path: '/privacy-policy' },
     { name: 'Terms & Conditions', path: '/terms-conditions' },
     { name: 'Cookie Policy', path: '/cookie-policy' },
-    { name: 'Disclaimer', path: '/disclaimer' },
-    { name: 'Implementation & Usage Notes', path: '/implementation-notes' }
+    { name: 'Disclaimer', path: '/disclaimer' }
+    // "Implementation & Usage Notes" yahan se hata diya gaya hai
   ];
 
   return (

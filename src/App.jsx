@@ -12,7 +12,7 @@ import PrivacyPolicy from './Pages/PrivacyPolicy'
 import Terms from './Pages/Terms'
 import CookiePolicy from './Pages/CookiePolicy'
 import Disclaimer from './Pages/Disclaimer'
-import ImplementationNotes from './Pages/ImplementationNotes'
+
 
 const App = () => {
   const router= createBrowserRouter([
@@ -57,10 +57,7 @@ const App = () => {
         path:'/disclaimer',
         element: <Disclaimer/>
       },
-      {
-        path:'/implementation-notes',
-        element: <ImplementationNotes/>
-      },
+      
     ]
     }
 
